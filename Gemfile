@@ -34,8 +34,13 @@ group :development, :test do
 end
 
 group :development do
+  gem 'i18n_generators'
   gem 'listen', '~> 3.3'
+  gem 'net-imap'
+  gem 'net-pop'
+  gem 'net-smtp'
   gem 'rack-mini-profiler', '~> 2.0'
+  gem 'rails-i18n', '~> 6.0'
   gem 'rubocop-fjord', require: false
   gem 'rubocop-rails', require: false
   gem 'spring'
