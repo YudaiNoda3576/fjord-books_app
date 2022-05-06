@@ -16,12 +16,16 @@ ja:
         memo: メモ
         picture: 写真
         title: タイトル
+  books:
+    edit:
+      editing_book: 編集画面
+    new:
+      new_book: 新規作成画面
   back: 戻る
   edit: 編集
   show: 詳細
   destroy: 削除
-  new_book: 新規作成
-  editing_book: 編集
+  create: 新規作成
   created_success_message: "正常に作成されました"
   updated_success_message: "正常に更新されました"
   destroyed_success_message: "正常に削除されました"
